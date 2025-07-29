@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Fascinating Evolution of Computers</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: url('web_image2.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            color: #000;
+            position: relative;
+        }
+
+        /* Overlay for readability */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.6);
+            z-index: -1;
+        }
+
+        h1 {
+            font-size: 36px;
+            text-align: center;
+            margin-top: 20px;
+            color: #003366;
+            text-shadow: 2px 2px #b0c4de;
+        }
+
+        .section {
+            padding: 20px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8);
+            margin: 10px auto;
+            border-radius: 10px;
+            max-width: 1000px;
+        }
+
+        .section img {
+            width: 80%;
+            max-width: 800px;
+            border-radius: 10px;
+        }
+
+        audio, iframe {
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .highlight {
+            background-color: rgba(214, 234, 248, 0.9);
+            margin: 30px auto;
+            padding: 20px;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: left;
+        }
+
+        .highlight h3 {
+            text-align: center;
+        }
+
+        .form-box {
+            background-color: rgba(255, 255, 255, 0.9);
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+
+        input, select, textarea {
+            width: 95%;
+            padding: 10px;
+            margin: 8px 0;
+        }
+
+        .gender-options {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #003366;
+            color: white;
+            padding: 10px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>The Fascinating Evolution of Computers</h1>
+
+    <div class="section">
+        <img src="https://d13loartjoc1yn.cloudfront.net/article/1692181701_History%20of%20Computer.jpg" alt="History of Computers">
+    </div>
+
+    <div class="section">
+        <!-- Educational Audio on Computer History -->
+        <audio controls>
+            <source src="Episode1_64kb.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/O5nskjZ_GoI" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/gjVX47dLlN8?si=rXqKSf5bHwLKmy0j" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="highlight">
+        <h3>📚 Quick Facts About Computers</h3>
+        <ul>
+            <li>The first computers were mechanical (Abacus, Pascaline).</li>
+            <li>ENIAC was the first general-purpose electronic computer.</li>
+            <li>Modern computers are powered by AI and quantum technologies.</li>
+            <li>Computers revolutionized communication, business, and education.</li>
+            <li>Computer generations progressed from vacuum tubes to microprocessors.</li>
+            <li>The development of the internet changed the world.</li>
+            <li>Supercomputers are used in space, climate modeling, and research.</li>
+        </ul>
+    </div>
+
+    <div class="form-box">
+        <h3>Personal Information</h3>
+        <form>
+            Name: <input type="text" value=""><br>
+            Register No: <input type="text" value=""><br>
+            Age: <input type="text" value=""><br>
+            <div class="gender-options">
+                Gender:
+                <label><input type="radio" name="gender"> Female</label>
+                <label><input type="radio" name="gender"> Male</label>
+            </div>
+            DOB: <input type="date"><br>
+            Favorite Invention:
+            <select>
+                <option></option>
+                <option></option>
+                <option></option>
+                <option></option>
+            </select><br>
+        </form>
+    </div>
+
+    <div class="form-box">
+        <h3>Contact Information</h3>
+        <form>
+            Address: <textarea rows="3"></textarea><br>
+            State: 
+            <select>
+                <option></option>
+                <option></option>
+                <option></option>
+            </select><br>
+            Mobile: <input type="text" value=""><br>
+            Email: <input type="email"><br>
+            <input type="checkbox" checked> I verified<br><br>
+            <input type="submit" value="">
+        </form>
+    </div>
+
+    <div class="section">
+        <h3>More Information</h3>
+        <iframe src="https://en.wikipedia.org/wiki/History_of_computing_hardware" width="80%" height="300px"></iframe>
+    </div>
+
+    <div class="section">
+        <h3>Locate Us</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.3524438886124!2d76.99799267480448!3d10.96129665631386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85a3aa2e45541%3A0x1c3a8c204b2a7550!2sKarunya%20University!5e0!3m2!1sen!2sin!4v1690200301023!5m2!1sen!2sin" width="80%" height="300" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <footer>
+        &copy; 2025 | History of Computers | URK23CS1267 - Asmila
+    </footer>
+
+</body>
+</html>
